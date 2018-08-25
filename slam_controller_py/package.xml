@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>slam_controller_py</name>
+  <version>0.0.1</version>
+  <description>The slam_controller python package</description>
+
+  <maintainer email="ciprian.tomoiaga@student.manchester.ac.uk">Cipri_Tom</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>ardrone_autonomy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>ardrone_autonomy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>

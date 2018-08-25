@@ -1,0 +1,14 @@
+gains: {
+  pitch: {p: 0.25, d: 0.01},
+  roll:  {p: 1.00, d: 0.10},
+  yaw:   {p: 1.00}
+}
+refs: {
+  pitch: {
+    pos: [0.0, 0.182, 0.399, 0.635],
+    thres: 0.02
+  },
+  roll: 0.0,
+  yaw: -0.01
+}
+hover_step: 70

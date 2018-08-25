@@ -1,0 +1,7 @@
+<launch>
+	<node name="pid_controller" pkg="slam_controller_py" type="pid_controller.py" output="screen" required="true">
+		<!-- To test the output values -->
+        <remap from="cmd_vel" to="my_cmd_vel" />
+        <rosparam file="$(find slam_controller_py)/src/params.yaml" command="load" />
+	</node>
+</launch>
